@@ -1,0 +1,121 @@
+IP Upgrade report for niosv_soc_epcs_sdram_top
+Thu Aug 15 00:47:24 2024
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Failed Upgrade IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------------+
+; IP Upgrade Summary                                                                ;
++------------------------------+----------------------------------------------------+
+; IP Components Upgrade Status ; Passed - Thu Aug 15 00:47:24 2024                  ;
+; Quartus Prime Version        ; 23.1std.1 Build 993 05/14/2024 SC Standard Edition ;
+; Revision Name                ; niosv_soc_epcs_sdram_top                           ;
+; Top-level Entity Name        ; niosv_soc_epcs_sdram_top                           ;
+; Family                       ; Cyclone IV E                                       ;
++------------------------------+----------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Failed Upgrade IP Components                                                                                                                                                                    ;
++-------------+----------------+---------+-------------------------------------------+------------------------+-----------------+-----------------------------------------------------------------+
+; Entity Name ; Component Name ; Version ; Original Source File                      ; Generation File Path   ; New Source File ; Message                                                         ;
++-------------+----------------+---------+-------------------------------------------+------------------------+-----------------+-----------------------------------------------------------------+
+; NIOSV_SOC   ; Qsys           ; 23.1    ; ../qsys/NIOSV_SOC/synthesis/NIOSV_SOC.qip ; ../qsys/NIOSV_SOC.qsys ;                 ; Error upgrading Platform Designer file "../qsys/NIOSV_SOC.qsys" ;
++-------------+----------------+---------+-------------------------------------------+------------------------+-----------------+-----------------------------------------------------------------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "../qsys/NIOSV_SOC.qsys" to "../qsys/NIOSV_SOC.BAK.qsys"
+Info (11902): Backing up file "../qsys/NIOSV_SOC/synthesis/NIOSV_SOC.v" to "../qsys/NIOSV_SOC.BAK.v"
+Info (11837): Started upgrading IP component Qsys with file "../qsys/NIOSV_SOC.qsys"
+Info: 2024.08.15.00:47:16 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info: 2024.08.15.00:47:16 Info: Finished upgrading the ip cores
+Info: 2024.08.15.00:47:20 Info: Saving generation log to C:/Users/Public/Github/3.niosv_soc_epcs_sdram/qsys/NIOSV_SOC
+Info: 2024.08.15.00:47:20 Info: Starting: Create simulation model
+Info: 2024.08.15.00:47:20 Info: qsys-generate C:\Users\Public\Github\3.niosv_soc_epcs_sdram\qsys\NIOSV_SOC.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\Public\Github\3.niosv_soc_epcs_sdram\qsys\NIOSV_SOC\simulation --family="Cyclone IV E" --part=EP4CE22F17C6
+Info: 2024.08.15.00:47:20 Info: Loading qsys
+Info: 2024.08.15.00:47:21 Info: Reading input file
+Info: 2024.08.15.00:47:21 Info: Adding ALTPLL_CLKS [altpll 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module ALTPLL_CLKS
+Info: 2024.08.15.00:47:21 Info: Adding EPCS_FLASH_CONTROLLER [altera_epcq_controller 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module EPCS_FLASH_CONTROLLER
+Info: 2024.08.15.00:47:21 Info: Adding EXT_SDRAM_PROGMEM [altera_avalon_new_sdram_controller 20.1]
+Warning: 2024.08.15.00:47:21 Warning: EXT_SDRAM_PROGMEM: Component type altera_avalon_new_sdram_controller is not in the library
+Info: 2024.08.15.00:47:21 Info: Parameterizing module EXT_SDRAM_PROGMEM
+Info: 2024.08.15.00:47:21 Info: Adding GPI0_BUTN [altera_avalon_pio 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module GPI0_BUTN
+Info: 2024.08.15.00:47:21 Info: Adding GPI1_DIPSW [altera_avalon_pio 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module GPI1_DIPSW
+Info: 2024.08.15.00:47:21 Info: Adding GPO2_LEDG [altera_avalon_pio 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module GPO2_LEDG
+Info: 2024.08.15.00:47:21 Info: Adding IN_CLOCK_BRIDGE [altera_clock_bridge 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module IN_CLOCK_BRIDGE
+Info: 2024.08.15.00:47:21 Info: Adding IN_RESET_BRIDGE [altera_reset_bridge 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module IN_RESET_BRIDGE
+Info: 2024.08.15.00:47:21 Info: Adding JTAG_UART_DBG [altera_avalon_jtag_uart 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module JTAG_UART_DBG
+Info: 2024.08.15.00:47:21 Info: Adding NIOSV_M_CPU [intel_niosv_m 2.0.0]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module NIOSV_M_CPU
+Info: 2024.08.15.00:47:21 Info: Adding SOC_SYSID [altera_avalon_sysid_qsys 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module SOC_SYSID
+Info: 2024.08.15.00:47:21 Info: Adding UART_SERIAL_COM [altera_avalon_uart 23.1]
+Info: 2024.08.15.00:47:21 Info: Parameterizing module UART_SERIAL_COM
+Info: 2024.08.15.00:47:21 Info: Building connections
+Info: 2024.08.15.00:47:21 Info: Parameterizing connections
+Info: 2024.08.15.00:47:21 Info: Validating
+Info: 2024.08.15.00:47:21 Info: Done reading input file
+Error: 2024.08.15.00:47:22 Error: NIOSV_SOC.EXT_SDRAM_PROGMEM: Component altera_avalon_new_sdram_controller 20.1 not found or could not be instantiated
+Info: 2024.08.15.00:47:22 Info: NIOSV_SOC.GPI0_BUTN: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2024.08.15.00:47:22 Info: NIOSV_SOC.GPI1_DIPSW: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: 2024.08.15.00:47:22 Info: NIOSV_SOC.JTAG_UART_DBG: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Warning: 2024.08.15.00:47:22 Warning: NIOSV_SOC.NIOSV_M_CPU: Properties (associatedClock) have been set on interface reset - in composed mode these are ignored
+Warning: 2024.08.15.00:47:22 Warning: NIOSV_SOC.NIOSV_M_CPU: Properties (associatedClock,associatedReset) have been set on interface instruction_manager - in composed mode these are ignored
+Warning: 2024.08.15.00:47:22 Warning: NIOSV_SOC.NIOSV_M_CPU: Properties (associatedClock,associatedReset) have been set on interface data_manager - in composed mode these are ignored
+Info: 2024.08.15.00:47:22 Info: NIOSV_SOC.SOC_SYSID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: 2024.08.15.00:47:22 Info: NIOSV_SOC.SOC_SYSID: Time stamp will be automatically updated when this component is generated.
+Warning: 2024.08.15.00:47:22 Warning: NIOSV_SOC.NIOSV_M_CPU: NIOSV_M_CPU.cpu_ecc_status must be exported, or connected to a matching conduit.
+Error: 2024.08.15.00:47:22 Error: NIOSV_SOC.EXT_SDRAM_PROGMEM.s1: Data width must be of power of two and between 8 and 4096
+Info: 2024.08.15.00:47:23 Info: NIOSV_SOC: Generating NIOSV_SOC "NIOSV_SOC" for SIM_VERILOG
+Error: 2024.08.15.00:47:24 Error: null
+Info (11904): Restoring file "../qsys/NIOSV_SOC.BAK.qsys" to "../qsys/NIOSV_SOC.qsys"
+Error (14923): Error upgrading Platform Designer file "../qsys/NIOSV_SOC.qsys"
+Error (11890): Unable to automatically upgrade Platform Designer component. Please manually upgrade "../qsys/NIOSV_SOC.qsys" in Platform Designer
+Error (23031): Evaluation of Tcl script c:/intelfpga/23.1std/quartus/common/tcl/internal/ip_regen/ip_regen.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 6 errors, 5 warnings
+    Error: Peak virtual memory: 4872 megabytes
+    Error: Processing ended: Thu Aug 15 00:47:24 2024
+    Error: Elapsed time: 00:00:17
+    Error: Total CPU time (on all processors): 00:00:48
+
+

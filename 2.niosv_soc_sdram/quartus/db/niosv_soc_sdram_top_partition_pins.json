@@ -1,0 +1,241 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SDRAM_ADDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_ADDR[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_BA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_BA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_CAS_n",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_CS_n",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_RAS_n",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_WE_n",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "UART_TXD",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ[15]",
+					"strict" : false
+				},
+				{
+					"name" : "EXT_CLK_50MHz",
+					"strict" : false
+				},
+				{
+					"name" : "BTN_RESET_n",
+					"strict" : false
+				},
+				{
+					"name" : "BTN_USER_n",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "UART_RXD",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

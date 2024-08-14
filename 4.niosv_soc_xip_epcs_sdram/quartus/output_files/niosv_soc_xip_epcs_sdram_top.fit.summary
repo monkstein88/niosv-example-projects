@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Aug 15 00:59:41 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Standard Edition
+Revision Name : niosv_soc_xip_epcs_sdram_top
+Top-level Entity Name : niosv_soc_xip_epcs_sdram_top
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 8,355 / 22,320 ( 37 % )
+    Total combinational functions : 7,058 / 22,320 ( 32 % )
+    Dedicated logic registers : 4,841 / 22,320 ( 22 % )
+Total registers : 4910
+Total pins : 60 / 154 ( 39 % )
+Total virtual pins : 0
+Total memory bits : 7,760 / 608,256 ( 1 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

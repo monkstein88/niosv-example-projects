@@ -1,0 +1,161 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'EXT_CLK_50MHz'
+Slack : 14.878
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'altera_reserved_tck'
+Slack : 46.257
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'EXT_CLK_50MHz'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 5.699
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 48.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'altera_reserved_tck'
+Slack : 1.051
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 2.821
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 4.737
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EXT_CLK_50MHz'
+Slack : 9.584
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.538
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 1.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'EXT_CLK_50MHz'
+Slack : 15.412
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 46.739
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'EXT_CLK_50MHz'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 6.155
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 48.287
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.949
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 2.542
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 4.737
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EXT_CLK_50MHz'
+Slack : 9.589
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.495
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 4.650
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'EXT_CLK_50MHz'
+Slack : 17.121
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 48.165
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'EXT_CLK_50MHz'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 7.446
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 49.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.575
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 1.641
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'NIOSV_SOC_inst|altpll_clks|sd1|pll7|clk[0]'
+Slack : 4.749
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EXT_CLK_50MHz'
+Slack : 9.247
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.309
+TNS   : 0.000
+
+------------------------------------------------------------

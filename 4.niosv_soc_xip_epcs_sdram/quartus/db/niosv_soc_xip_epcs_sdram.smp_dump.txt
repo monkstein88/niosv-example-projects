@@ -1,0 +1,44 @@
+
+State Machine - |niosv_soc_xip_epcs_sdram_top|NIOSV_SOC:NIOSV_SOC_inst|NIOSV_SOC_NIOSV_M_CPU:niosv_m_cpu|niosv_dm_top:dbg_mod|niosv_debug_module:dm_inst|dm_state
+Name dm_state.EXE_PNDG dm_state.RESUMING dm_state.CMD_EXE dm_state.HALTED dm_state.HALTREQ dm_state.IDLE 
+dm_state.IDLE 0 0 0 0 0 0 
+dm_state.HALTREQ 0 0 0 0 1 1 
+dm_state.HALTED 0 0 0 1 0 1 
+dm_state.CMD_EXE 0 0 1 0 0 1 
+dm_state.RESUMING 0 1 0 0 0 1 
+dm_state.EXE_PNDG 1 0 0 0 0 1 
+
+State Machine - |niosv_soc_xip_epcs_sdram_top|NIOSV_SOC:NIOSV_SOC_inst|NIOSV_SOC_EXT_SDRAM_PROGMEM:ext_sdram_progmem|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |niosv_soc_xip_epcs_sdram_top|NIOSV_SOC:NIOSV_SOC_inst|NIOSV_SOC_EXT_SDRAM_PROGMEM:ext_sdram_progmem|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |niosv_soc_xip_epcs_sdram_top|NIOSV_SOC:NIOSV_SOC_inst|NIOSV_SOC_EXT_SDRAM_PROGMEM:ext_sdram_progmem|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |niosv_soc_xip_epcs_sdram_top|NIOSV_SOC:NIOSV_SOC_inst|NIOSV_SOC_EXT_SDRAM_PROGMEM:ext_sdram_progmem|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
