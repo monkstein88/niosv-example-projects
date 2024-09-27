@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/aldec/niosv_opcode_def.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_mem_op_state.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_ram.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_reg_file.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_csr.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_interrupt_handler.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_instr_buffer.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_bus_req.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_shift.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_32dec.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_32enc.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_dec20.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_enc20.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_dec21.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_enc21.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_dec22.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_enc22.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_dec23.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_enc23.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_dec24.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_enc24.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_dec25.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_enc25.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_dec26.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_altecc_enc26.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_ecc_ram.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_enc_dec.v"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_c_alu.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_c_decoder.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_c_lsu.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_c_core.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_c_csr.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_m_top.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_m_alu.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_m_decoder.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_m_lsu.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_m_core.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_m_instr_prefetch.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/aldec/niosv_m_shift_module.sv"
+   type="SYSTEM_VERILOG"
+   library="hart"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_EPCS_FLASH_CONTROLLER_epcq_controller_instance_name.v"
+   type="VERILOG"
+   library="epcq_controller_instance_name" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_EPCS_FLASH_CONTROLLER_asmi_parallel_instance_name.v"
+   type="VERILOG"
+   library="asmi_parallel_instance_name" />
+ <file
+   path="simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_irq_clock_crosser.sv"
+   type="SYSTEM_VERILOG"
+   library="irq_synchronizer" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_irq_mapper.sv"
+   type="SYSTEM_VERILOG"
+   library="irq_mapper" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_mm_interconnect_0.v"
+   type="VERILOG"
+   library="mm_interconnect_0" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_UART_SERIAL_COM.v"
+   type="VERILOG"
+   library="UART_SERIAL_COM" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_SOC_SYSID.v"
+   type="VERILOG"
+   library="SOC_SYSID" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_NIOSV_M_CPU.v"
+   type="VERILOG"
+   library="NIOSV_M_CPU" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_JTAG_UART_DBG.v"
+   type="VERILOG"
+   library="JTAG_UART_DBG" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_GPO2_LEDG.v"
+   type="VERILOG"
+   library="GPO2_LEDG" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_GPI1_DIPSW.v"
+   type="VERILOG"
+   library="GPI1_DIPSW" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_GPI0_BUTN.v"
+   type="VERILOG"
+   library="GPI0_BUTN" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_EXT_SDRAM_PROGMEM.v"
+   type="VERILOG"
+   library="EXT_SDRAM_PROGMEM" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_EXT_SDRAM_PROGMEM_test_component.v"
+   type="VERILOG"
+   library="EXT_SDRAM_PROGMEM" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_EPCS_FLASH_CONTROLLER.sv"
+   type="SYSTEM_VERILOG"
+   library="EPCS_FLASH_CONTROLLER" />
+ <file
+   path="simulation/submodules/NIOSV_SOC_ALTPLL_CLKS.vo"
+   type="VERILOG"
+   library="ALTPLL_CLKS" />
+ <file path="simulation/NIOSV_SOC.v" type="VERILOG" />
+ <topLevel name="NIOSV_SOC" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

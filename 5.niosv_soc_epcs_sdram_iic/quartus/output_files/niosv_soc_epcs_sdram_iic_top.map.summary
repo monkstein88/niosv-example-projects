@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Sep 27 14:04:40 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Standard Edition
+Revision Name : niosv_soc_epcs_sdram_iic_top
+Top-level Entity Name : niosv_soc_epcs_sdram_iic_top
+Family : Cyclone IV E
+Total logic elements : 8,863
+    Total combinational functions : 7,038
+    Dedicated logic registers : 4,874
+Total registers : 4874
+Total pins : 60
+Total virtual pins : 0
+Total memory bits : 7,760
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
