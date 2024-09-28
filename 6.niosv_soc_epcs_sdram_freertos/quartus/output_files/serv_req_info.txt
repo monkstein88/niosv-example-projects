@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<internal_error>
+	<executable>quartus_pgmw.exe</executable>
+	<sub_system>MEM</sub_system>
+	<error>*** Fatal Error: Out of memory in module quartus_pgmw.exe (541 megabytes used).</error>
+	<date>Sat Sep 28 00:06:35 2024</date>
+	<version>Version 24.2.0 Build 40 06/27/2024 SC Pro Edition</version>
+</internal_error>
