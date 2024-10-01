@@ -1,0 +1,8 @@
+# To generate the app.srec file (the pre-stage for the .hex), which makes to include the (default) boot-copier:
+# (Remember the Reset vector is set to ECPS memory - with base address 0x02000000, and the Reset offset is 0x00100000) 
+elf2flash.exe --input .\build\Debug\app.elf --output app.srec --reset 0x02100000 --base 0x02000000 --end 0x027fffff --boot niosv_m_bootloader.srec
+elf2flash.exe --input .\build\Debug\freertos_app.elf --output freertos_app.srec --reset 0x02100000 --base 0x02000000 --end 0x027fffff --boot niosv_m_bootloader.srec
+
+# To generate the actual .hex file:
+riscv32-unknown-elf-objcopy --input-target srec --output-target ihex  app.srec  app.hex
+riscv32-unknown-elf-objcopy --input-target srec --output-target ihex  freertos_app.srec  freertos_app.hex
