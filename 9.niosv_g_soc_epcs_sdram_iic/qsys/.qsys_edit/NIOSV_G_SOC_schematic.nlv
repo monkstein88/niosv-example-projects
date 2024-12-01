@@ -1,0 +1,38 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst NIOSV_G_SOC.NIOSV_G_CPU.clock_bridge -pg 1
+preplace inst NIOSV_G_SOC.GPO2_LEDG -pg 1 -lvl 4 -y 550
+preplace inst NIOSV_G_SOC.GPI0_BTN -pg 1 -lvl 4 -y 310
+preplace inst NIOSV_G_SOC.ALTPLL_CLKS -pg 1 -lvl 4 -y 190
+preplace inst NIOSV_G_SOC.GPI1_DIPSW -pg 1 -lvl 4 -y 430
+preplace inst NIOSV_G_SOC -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst NIOSV_G_SOC.NIOSV_G_CPU.timer_module -pg 1
+preplace inst NIOSV_G_SOC.NIOSV_G_CPU.reset_bridge -pg 1
+preplace inst NIOSV_G_SOC.SERIAL_UART_COM -pg 1 -lvl 4 -y 750
+preplace inst NIOSV_G_SOC.JTAG_UART_COM -pg 1 -lvl 4 -y 650
+preplace inst NIOSV_G_SOC.NIOSV_G_CPU.dbg_mod -pg 1
+preplace inst NIOSV_G_SOC.NIOSV_G_CPU -pg 1 -lvl 3 -y 90
+preplace inst NIOSV_G_SOC.SOC_SYS_ID -pg 1 -lvl 4 -y 870
+preplace inst NIOSV_G_SOC.NIOSV_G_CPU.hart -pg 1
+preplace inst NIOSV_G_SOC.SDRAM_CONTROLLER_DATA -pg 1 -lvl 4 -y 950
+preplace inst NIOSV_G_SOC.RESET_BRIDGE_IN -pg 1 -lvl 2 -y 370
+preplace inst NIOSV_G_SOC.EPCS_FLASH_CONTROLLER_PROG -pg 1 -lvl 4 -y 30
+preplace inst NIOSV_G_SOC.CLOCK_BRIDGE_IN -pg 1 -lvl 1 -y 350
+preplace netloc FAN_OUT<net_container>NIOSV_G_SOC</net_container>(SLAVE)SDRAM_CONTROLLER_DATA.clk,(SLAVE)JTAG_UART_COM.clk,(SLAVE)GPI1_DIPSW.clk,(SLAVE)SOC_SYS_ID.clk,(SLAVE)SERIAL_UART_COM.clk,(MASTER)ALTPLL_CLKS.c0,(SLAVE)GPI0_BTN.clk,(SLAVE)GPO2_LEDG.clk,(SLAVE)NIOSV_G_CPU.clk) 1 2 3 530 50 840 180 1220
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)ALTPLL_CLKS.locked_conduit,(SLAVE)NIOSV_G_SOC.altpll_clks_locked_conduit) 1 0 4 NJ 260 NJ 260 NJ 260 NJ
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)GPI1_DIPSW.external_connection,(SLAVE)NIOSV_G_SOC.gpi1_dipsw_externals) 1 0 4 NJ 460 NJ 460 NJ 460 NJ
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)GPI0_BTN.external_connection,(SLAVE)NIOSV_G_SOC.gpi0_btn_externals) 1 0 4 NJ 340 NJ 340 NJ 340 NJ
+preplace netloc POINT_TO_POINT<net_container>NIOSV_G_SOC</net_container>(SLAVE)EPCS_FLASH_CONTROLLER_PROG.clock_sink,(MASTER)ALTPLL_CLKS.c2) 1 3 2 960 160 1240
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)NIOSV_G_SOC.sdram_controller_externals,(SLAVE)SDRAM_CONTROLLER_DATA.wire) 1 0 4 NJ 1020 NJ 1020 NJ 1020 NJ
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)NIOSV_G_SOC.gpo2_ledg_externals,(SLAVE)GPO2_LEDG.external_connection) 1 0 4 NJ 580 NJ 580 NJ 580 NJ
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)NIOSV_G_SOC.clock_bridge_in_clk,(SLAVE)CLOCK_BRIDGE_IN.in_clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>NIOSV_G_SOC</net_container>(SLAVE)RESET_BRIDGE_IN.clk,(MASTER)CLOCK_BRIDGE_IN.out_clk,(SLAVE)ALTPLL_CLKS.inclk_interface) 1 1 3 340 360 NJ 360 920
+preplace netloc INTERCONNECT<net_container>NIOSV_G_SOC</net_container>(MASTER)NIOSV_G_CPU.data_manager,(MASTER)NIOSV_G_CPU.instruction_manager,(SLAVE)NIOSV_G_CPU.dm_agent,(SLAVE)SDRAM_CONTROLLER_DATA.s1,(SLAVE)SERIAL_UART_COM.s1,(SLAVE)JTAG_UART_COM.avalon_jtag_slave,(SLAVE)ALTPLL_CLKS.pll_slave,(SLAVE)GPO2_LEDG.s1,(SLAVE)EPCS_FLASH_CONTROLLER_PROG.avl_mem,(SLAVE)SOC_SYS_ID.control_slave,(SLAVE)GPI0_BTN.s1,(SLAVE)NIOSV_G_CPU.timer_sw_agent,(SLAVE)EPCS_FLASH_CONTROLLER_PROG.avl_csr,(SLAVE)GPI1_DIPSW.s1) 1 2 2 510 30 860
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)SERIAL_UART_COM.external_connection,(SLAVE)NIOSV_G_SOC.serial_uart_com_externals) 1 0 4 NJ 780 NJ 780 NJ 780 NJ
+preplace netloc FAN_OUT<net_container>NIOSV_G_SOC</net_container>(SLAVE)GPI1_DIPSW.reset,(SLAVE)ALTPLL_CLKS.inclk_interface_reset,(SLAVE)EPCS_FLASH_CONTROLLER_PROG.reset,(SLAVE)GPI0_BTN.reset,(SLAVE)JTAG_UART_COM.reset,(MASTER)RESET_BRIDGE_IN.out_reset,(SLAVE)SDRAM_CONTROLLER_DATA.reset,(SLAVE)NIOSV_G_CPU.reset,(SLAVE)SOC_SYS_ID.reset,(SLAVE)SERIAL_UART_COM.reset,(SLAVE)GPO2_LEDG.reset) 1 2 2 490 210 880
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)ALTPLL_CLKS.areset_conduit,(SLAVE)NIOSV_G_SOC.altpll_clks_areset_conduit) 1 0 4 NJ 230 NJ 230 NJ 230 NJ
+preplace netloc FAN_OUT<net_container>NIOSV_G_SOC</net_container>(SLAVE)GPI0_BTN.irq,(MASTER)NIOSV_G_CPU.platform_irq_rx,(SLAVE)SERIAL_UART_COM.irq,(SLAVE)GPI1_DIPSW.irq,(SLAVE)JTAG_UART_COM.irq,(SLAVE)EPCS_FLASH_CONTROLLER_PROG.interrupt_sender) 1 3 1 940
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(SLAVE)RESET_BRIDGE_IN.in_reset,(SLAVE)NIOSV_G_SOC.reset_bridge_in_reset_n) 1 0 2 NJ 400 NJ
+preplace netloc EXPORT<net_container>NIOSV_G_SOC</net_container>(MASTER)ALTPLL_CLKS.c1,(MASTER)NIOSV_G_SOC.altpll_clks_c1_phaseshift) 1 4 1 N
+levelinfo -pg 1 0 170 1450
+levelinfo -hier NIOSV_G_SOC 180 210 370 640 1030 1260

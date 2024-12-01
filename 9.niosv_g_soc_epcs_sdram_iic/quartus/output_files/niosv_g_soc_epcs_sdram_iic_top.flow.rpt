@@ -1,0 +1,159 @@
+Flow report for niosv_g_soc_epcs_sdram_iic_top
+Sun Dec  1 18:51:46 2024
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------------------+
+; Flow Summary                                                                            ;
++------------------------------------+----------------------------------------------------+
+; Flow Status                        ; Successful - Sun Dec  1 18:51:46 2024              ;
+; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Standard Edition ;
+; Revision Name                      ; niosv_g_soc_epcs_sdram_iic_top                     ;
+; Top-level Entity Name              ; niosv_g_soc_epcs_sdram_iic_top                     ;
+; Family                             ; Cyclone IV E                                       ;
+; Device                             ; EP4CE22F17C6                                       ;
+; Timing Models                      ; Final                                              ;
+; Total logic elements               ; 16,315 / 22,320 ( 73 % )                           ;
+;     Total combinational functions  ; 14,104 / 22,320 ( 63 % )                           ;
+;     Dedicated logic registers      ; 8,754 / 22,320 ( 39 % )                            ;
+; Total registers                    ; 8823                                               ;
+; Total pins                         ; 60 / 154 ( 39 % )                                  ;
+; Total virtual pins                 ; 0                                                  ;
+; Total memory bits                  ; 244,896 / 608,256 ( 40 % )                         ;
+; Embedded Multiplier 9-bit elements ; 20 / 132 ( 15 % )                                  ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                                     ;
++------------------------------------+----------------------------------------------------+
+
+
++----------------------------------------------------+
+; Flow Settings                                      ;
++-------------------+--------------------------------+
+; Option            ; Setting                        ;
++-------------------+--------------------------------+
+; Start date & time ; 12/01/2024 18:48:48            ;
+; Main task         ; Compilation                    ;
+; Revision Name     ; niosv_g_soc_epcs_sdram_iic_top ;
++-------------------+--------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                       ;
++--------------------------------------+---------------------------------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                      ; Value                                                         ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------+---------------------------------------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 91757609085.173307172838532                                   ; --            ; --          ; --                                ;
+; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL      ; Precision Synthesis                                           ; <None>        ; --          ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                           ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                           ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                           ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                           ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_INPUT_DATA_FORMAT                ; Vqm                                                           ; --            ; --          ; eda_design_synthesis              ;
+; EDA_LMF_FILE                         ; mentor.lmf                                                    ; --            ; --          ; eda_design_synthesis              ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                                             ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; Questa Intel FPGA (SystemVerilog)                             ; <None>        ; --          ; --                                ;
+; EDA_TIME_SCALE                       ; 1 ps                                                          ; --            ; --          ; eda_simulation                    ;
+; FITTER_EFFORT                        ; Standard Fit                                                  ; Auto Fit      ; --          ; --                                ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                            ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                             ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ../qsys/NIOSV_G_SOC/synthesis/../NIOSV_G_SOC.cmp              ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ../qsys/NIOSV_G_SOC/synthesis/../../NIOSV_G_SOC.qsys          ; --            ; --          ; --                                ;
+; MUX_RESTRUCTURE                      ; Off                                                           ; Auto          ; --          ; --                                ;
+; OPTIMIZATION_MODE                    ; Aggressive Performance                                        ; Balanced      ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                             ; --            ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                             ; --            ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                    ; --            ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                    ; --            ; --          ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                        ; --            ; --          ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                        ; --            ; --          ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                        ; --            ; --          ; Top                               ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC       ; On                                                            ; Off           ; --          ; --                                ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING ; On                                                            ; Off           ; --          ; --                                ;
+; PLACEMENT_EFFORT_MULTIPLIER          ; 4.0                                                           ; 1.0           ; --          ; --                                ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                           ; --            ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                         ; --            ; --          ; --                                ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL     ; MAXIMUM                                                       ; Normal        ; --          ; --                                ;
+; SLD_FILE                             ; ../qsys/NIOSV_G_SOC/synthesis/NIOSV_G_SOC.regmap              ; --            ; --          ; --                                ;
+; SLD_FILE                             ; ../qsys/NIOSV_G_SOC/synthesis/NIOSV_G_SOC.debuginfo           ; --            ; --          ; --                                ;
+; SLD_INFO                             ; QSYS_NAME NIOSV_G_SOC HAS_SOPCINFO 1 GENERATION_ID 1733070426 ; --            ; NIOSV_G_SOC ; --                                ;
+; SOPCINFO_FILE                        ; ../qsys/NIOSV_G_SOC/synthesis/../../NIOSV_G_SOC.sopcinfo      ; --            ; --          ; --                                ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                            ; --            ; --          ; --                                ;
+; VERILOG_INPUT_VERSION                ; SystemVerilog_2005                                            ; Verilog_2001  ; --          ; --                                ;
+; VERILOG_SHOW_LMF_MAPPING_MESSAGES    ; Off                                                           ; --            ; --          ; --                                ;
+; VHDL_INPUT_VERSION                   ; VHDL_2008                                                     ; VHDL_1993     ; --          ; --                                ;
+; VHDL_SHOW_LMF_MAPPING_MESSAGES       ; Off                                                           ; --            ; --          ; --                                ;
++--------------------------------------+---------------------------------------------------------------+---------------+-------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:01:17     ; 1.0                     ; 5251 MB             ; 00:01:29                           ;
+; Fitter               ; 00:01:17     ; 1.4                     ; 6714 MB             ; 00:03:55                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4767 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:05     ; 2.0                     ; 5108 MB             ; 00:00:08                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4757 MB             ; 00:00:05                           ;
+; Total                ; 00:02:48     ; --                      ; --                  ; 00:05:41                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off niosv_g_soc_epcs_sdram_iic -c niosv_g_soc_epcs_sdram_iic_top
+quartus_fit --read_settings_files=off --write_settings_files=off niosv_g_soc_epcs_sdram_iic -c niosv_g_soc_epcs_sdram_iic_top
+quartus_asm --read_settings_files=off --write_settings_files=off niosv_g_soc_epcs_sdram_iic -c niosv_g_soc_epcs_sdram_iic_top
+quartus_sta niosv_g_soc_epcs_sdram_iic -c niosv_g_soc_epcs_sdram_iic_top
+quartus_eda --read_settings_files=off --write_settings_files=off niosv_g_soc_epcs_sdram_iic -c niosv_g_soc_epcs_sdram_iic_top
+
+
+

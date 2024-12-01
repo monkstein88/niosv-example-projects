@@ -1,0 +1,155 @@
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:niosv_g_cpu_timer_sw_agent_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:gpo2_ledg_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:gpi1_dipsw_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:gpi0_btn_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:serial_uart_com_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:sdram_controller_data_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:altpll_clks_pll_slave_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:niosv_g_cpu_dm_agent_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:soc_sys_id_control_slave_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:epcs_flash_controller_prog_avl_mem_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:epcs_flash_controller_prog_avl_csr_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:jtag_uart_com_avalon_jtag_slave_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_SDRAM_CONTROLLER_DATA:sdram_controller_data|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_SDRAM_CONTROLLER_DATA:sdram_controller_data|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_SDRAM_CONTROLLER_DATA:sdram_controller_data|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_SDRAM_CONTROLLER_DATA:sdram_controller_data|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_NIOSV_G_CPU:niosv_g_cpu|niosv_dm_top:dbg_mod|niosv_debug_module:dm_inst|dm_state
+Name dm_state.EXE_PNDG dm_state.RESUMING dm_state.CMD_EXE dm_state.HALTED dm_state.HALTREQ dm_state.IDLE 
+dm_state.IDLE 0 0 0 0 0 0 
+dm_state.HALTREQ 0 0 0 0 1 1 
+dm_state.HALTED 0 0 0 1 0 1 
+dm_state.CMD_EXE 0 0 1 0 0 1 
+dm_state.RESUMING 0 1 0 0 0 1 
+dm_state.EXE_PNDG 1 0 0 0 0 1 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_NIOSV_G_CPU:niosv_g_cpu|NIOSV_G_SOC_NIOSV_G_CPU_hart:hart|niosv_g_core_NIOSV_G_SOC_NIOSV_G_CPU_hart:core_inst|niosv_g_dcache:lsu_inst|state
+Name state.CACHE_SCRUB state.AMO_WR state.AMO_OP state.AMO_RD_1 state.AMO_RD_0 state.UNCACHED state.CMO_EVICT state.CMO_WAIT state.EVICT_IDLE state.EVICT state.MISS_FILL state.CACHE_CHK state.ST_IDLE 
+state.ST_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.CACHE_CHK 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.MISS_FILL 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.EVICT 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.EVICT_IDLE 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.CMO_WAIT 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.CMO_EVICT 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.UNCACHED 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.AMO_RD_0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.AMO_RD_1 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.AMO_OP 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.AMO_WR 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.CACHE_SCRUB 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |niosv_g_soc_epcs_sdram_iic_top|NIOSV_G_SOC:NIOSV_G_SOC_inst|NIOSV_G_SOC_NIOSV_G_CPU:niosv_g_cpu|NIOSV_G_SOC_NIOSV_G_CPU_hart:hart|niosv_g_core_NIOSV_G_SOC_NIOSV_G_CPU_hart:core_inst|niosv_g_instr_cache:icache_inst|state
+Name state.S_FETCH_TRANSFER state.S_FETCH_REQ state.S_WRITEBACK_TRANSFER state.S_WRITEBACK_REQ state.S_HIT state.S_FLUSH state.S_PREFETCH state.S_INIT 
+state.S_INIT 0 0 0 0 0 0 0 0 
+state.S_PREFETCH 0 0 0 0 0 0 1 1 
+state.S_FLUSH 0 0 0 0 0 1 0 1 
+state.S_HIT 0 0 0 0 1 0 0 1 
+state.S_WRITEBACK_REQ 0 0 0 1 0 0 0 1 
+state.S_WRITEBACK_TRANSFER 0 0 1 0 0 0 0 1 
+state.S_FETCH_REQ 0 1 0 0 0 0 0 1 
+state.S_FETCH_TRANSFER 1 0 0 0 0 0 0 1 
