@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Dec  1 17:49:52 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Standard Edition
+Revision Name : niosv_g_soc_epcs_tcmem_iic_top
+Top-level Entity Name : niosv_g_soc_epcs_tcmem_iic_top
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 12,500 / 22,320 ( 56 % )
+    Total combinational functions : 11,070 / 22,320 ( 50 % )
+    Dedicated logic registers : 6,751 / 22,320 ( 30 % )
+Total registers : 6751
+Total pins : 21 / 154 ( 14 % )
+Total virtual pins : 0
+Total memory bits : 358,368 / 608,256 ( 59 % )
+Embedded Multiplier 9-bit elements : 8 / 132 ( 6 % )
+Total PLLs : 1 / 4 ( 25 % )

@@ -1,0 +1,11 @@
+# **************************************************
+# Quartus Prime Version 24.3.0
+# Process ID 17532
+# Start logging TCL commands
+# Sun Dec 1 17:39:57 2024
+# **************************************************
+project_open "C:/Users/Public/Github/niosv-examples/8.niosv_g_soc_epcs_tcmem_iic/quartus/niosv_g_soc_epcs_tcmem_iic.qpf" -revision niosv_g_soc_epcs_tcmem_iic_top
+# **************************************************
+# Sun Dec 1 17:40:13 2024
+# End of logging TCL commands
+# **************************************************
